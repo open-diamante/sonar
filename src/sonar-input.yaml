@@ -1,0 +1,45 @@
+---
+### Inputs - NOTE:  Need do document these inputs
+## Co-Location of Gateway/MDS/MON's
+# colocation: True | False
+## Use Case - Mixed OR Archive
+# useCase: 'Mixed' | 'Archive'
+## Storage Capacity Required (in TB)
+# storageCapacity:  2000
+## Metadata Capacity (in TB)
+# metaDataCapacity: 0
+## Drive Capacity (in TB)
+# driveCapacity:  16
+## Number of drives per Chassis
+# drivesPerChassis: 24
+## Number of Populated slots per Chassis
+# populatedSlotsPerChassis: 24
+## Number of NVME Slots per Chassis
+# nvmeSlotsPerChassis: 6
+## Drive Type - HDD or SSD
+# driveType:  HDD
+## Max Fill Capacity (percentage)
+# maxFillCapacity: 80
+## NVME Ratio - doc?
+# nvmeRatio: 12
+## Protection Type (Number of Copies) (1 = EC)
+# protectionType:  1
+## EC Profile Data
+# ecProfileData: 8
+## EC Profile Parity
+# ecProfileParity: 3
+colocation: True
+useCase: 'mixed'
+storageCapacity:  2000
+metaDataCapacity: 0
+driveCapacity:  16
+drivesPerChassis: 24
+populatedSlotsPerChassis: 24
+nvmeSlotsPerChassis: 6
+driveType:  'HDD'
+maxFillCapacity: 80
+nvmeRatio: 12
+protectionType:  1
+ecProfileData: 8
+ecProfileParity: 3
+
